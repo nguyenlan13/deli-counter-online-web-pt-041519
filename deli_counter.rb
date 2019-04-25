@@ -12,3 +12,4 @@ def line (deli)
     end
     puts current_line
   end
+end
