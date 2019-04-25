@@ -7,8 +7,8 @@ def line (deli)
     puts "The line is currently empty."
   else
     current_place = "The line is currently:" 
-    deli.each_with_index(1) do |array,name|
-    current_place << " #{name}. #{array}"
+    deli.each_with_index(1) do |name, i|
+    current_place << " #{i}. #{name}"
     end
     puts current_place
   end
