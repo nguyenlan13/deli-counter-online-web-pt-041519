@@ -7,6 +7,8 @@ def line (deli)
     puts "The line is currently empty."
   else
     loop do
+      
+      
     current_place = "The line is currently:" 
     deli.each_with_index(1) do |name, i|
     current_place << "#{i}. #{name}"
