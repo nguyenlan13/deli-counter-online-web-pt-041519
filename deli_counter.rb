@@ -6,10 +6,10 @@ def line (deli)
     deli.empty?
     puts "The line is currently empty."
   else
-    current_line = "The line is currently:"
-    deli.each.with_index(1) do |person, i|
-      current_line << " #{i}. #{person}"
+    current_place = "The line is currently:"
+    deli.each.with_index(1) do |name, i|
+      current_place << " #{i}. #{name}"
     end
-    puts current_line
+    puts current_place
   end
 end
