@@ -13,3 +13,6 @@ def line (deli)
     puts current_place
   end
 end
+
+def take_a_number(katz_deli,"name")
+  puts #{name}
