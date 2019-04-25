@@ -22,4 +22,5 @@ def take_a_number(deli,name)
 def now_serving
   if
     deli.empty?
-    puts 
+    puts "There is nobody waiting to be served!"
+  else
