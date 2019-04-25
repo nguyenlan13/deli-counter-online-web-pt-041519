@@ -24,7 +24,7 @@ def now_serving
     deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{name}."
+    puts "Currently serving #{deli.first}."
   end
   deli.unshift
 end
