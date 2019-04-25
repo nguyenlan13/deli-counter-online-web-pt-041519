@@ -3,7 +3,7 @@
 
 def line (deli)
   if
-    deli.empty
+    deli.empty?
     puts "The line is currently empty."
   else
     
