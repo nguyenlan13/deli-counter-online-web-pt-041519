@@ -2,7 +2,6 @@
 
 
 def line (deli)
-  katz_deli[]
   if
     deli.empty?
     puts "The line is currently empty."
@@ -15,5 +14,5 @@ def line (deli)
   end
 end
 
-def take_a_number(katz_deli,"name")
-  puts #{name}
+def take_a_number(deli,name)
+ 
